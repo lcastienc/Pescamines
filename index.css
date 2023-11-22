@@ -1,0 +1,13 @@
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+
+td {
+  width: 20px; /* Ancho de cada celda igual al tamaño de la imagen */
+  height: 20px; /* Altura de cada celda igual al tamaño de la imagen */
+  border: 1px solid black;
+  padding: 0; /* Elimina cualquier relleno interno */
+  background-size: cover; /* Ajusta la imagen para cubrir la celda */
+  line-height: 1; /* Ajusta la altura para coincidir con el tamaño de la imagen */
+}
